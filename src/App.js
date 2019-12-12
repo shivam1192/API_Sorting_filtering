@@ -60,7 +60,7 @@ class App extends Component {
          item:i
     })
   }
- 
+
   render(){
     var {isloaded,item} =this.state
     if(!isloaded){
@@ -94,7 +94,8 @@ class App extends Component {
                                 <li> {des} </li>
                                 </ul>
                             )
-                          })}                        
+                          })} 
+                          <a href={result.short_url}>SeeMore</a>                       
                           </div> )
           })}
           
